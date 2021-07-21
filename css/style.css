@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(232, 229, 229, 0.7);
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#card {
+    width: 235px;
+    height: 466px;
+    border-radius: 4px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 1px 2px 2px rgb(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+#card:hover {
+    box-shadow: 0 0 1px 1px rgb(0 0 0 / 8%), 0 10px 15px 0 rgb(0 0 0 / 10%);
+}
+
+#card-img {
+    border-bottom: 1px solid rgb(237, 234, 234);
+}
+
+.card-info {
+    padding: 16px;
+}
+
+.card-info>span {
+    display: block;
+    margin-top: 2px;
+}
+
+.card-dadge {
+    background-color: rgb(53, 131, 250);
+    border-radius: 3px;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    width: fit-content;
+    padding: 2px 4px;
+    margin-bottom: 4px;
+    transition: all 300ms;
+}
+
+.card-dadge:hover {
+    box-shadow: 0, 4, 0, 9 rgb(2, 32, 77);
+    ;
+    border: 2px solid rgb(8, 81, 191);
+    ;
+}
+
+.card-precioanterior {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(102 102 102);
+    text-decoration: line-through;
+}
+
+.card-precioatual {
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(0 0 0 /80%);
+}
+
+.card-desconto {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(0 166 80);
+}
+
+.card-parcelado {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0 166 90);
+}
+
+.card-titulo {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0 0 0);
+}
